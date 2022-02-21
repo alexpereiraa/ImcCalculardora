@@ -1,0 +1,79 @@
+main{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;  /* Alinha o main ao centro*/
+    align-items: center; /* Joga o main pro centro da tela*/
+}
+.container{
+    display: flex; /* Vai ajustar os items de acordo com o tamanho da tela*/
+    flex-direction: column; /*Arranja em colonas*/
+    background-color: orange; /* cor de fundo*/
+    width: 400px; /*ajusta a div*/
+    height: 600px; /*ajusta a altura da div*/
+    align-items: center; /*joga os itens pro cedisntro*/
+    justify-content: space-evenly; 
+    border-radius: 20px; /* arredonda as bosdas*/
+    box-shadow: 0px 0px 10px black; /* Cria uma leve sombra no objeto*/
+}
+.titulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    font: bold 2.5rem serif;
+    border-bottom: solid 5px black;
+    margin-bottom: 20px;
+} 
+.input input{
+    display: flex;
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+    border: none; /* Tira a borda do input*/
+    outline: 0;
+    font: bold 1.rem serif;
+}
+input{
+    display: flex;
+    width: 250px;
+    height: 50px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 8px;
+    border: none;
+    text-align: center;
+    font-family: normal 1.2rem serif;
+    font-size: 20px;
+}
+.input label{
+    font: bold 1.5rem serif;
+}
+button{
+    width: 200px; /*Almenta a largura*/
+    height: 40px; /*Almenta a altura*/
+    font: bold 1.2rem serif; /*Muda a cor e a fonte*/
+    background: rgb(41, 2, 2); /*Cor de fundo*/
+    color: rgb(247, 242, 238); /* Cor da Fonte*/
+    outline: nome;
+    border-radius: 15px;
+    cursor: pointer; /* O cursor vira uma mão*/
+
+}
+.res{
+  display: flex;
+  margin-top: 20px;
+  align-items: center;
+  width: 300px;
+  height: 150px;
+  border-radius: 5px;
+  font: normal 1.5rem serif;
+  box-shadow: 0px 0px 10px black;
+  background: rgb(230, 223, 223);
+  color: rgb(17, 18, 19);
+  padding: 20px;
+  box-sizing: border-box;
+  user-select: none;   
+}
+
